@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+.text{
+    display: flex;
+    justify-content:center;
+    align-items: end;
+    width: 300px;
+    height: 200px;
+    margin-left: 630px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 55px;
+    color: #fff;
+    text-shadow: 5px 5px 3px #000;
+    
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.buttin{
+        background-color: white;
+        color: black;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        border: 2px solid #555555;
+        background: #fff;
+        width: 180px;
+        height: 45px;
+        border-radius: 5px;
+}
+.buttin:hover{
+    background-color: #000000;
+    transition: ease-in all 0.1s;
+    color: #ffffff;
+}
+body{
+    height: 100vh;
+    background-image: url(coffee.png);
+    background-size: cover;
+    background-position: center;
+    
+} 
+
+header {
+    position:fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8%;
+    box-shadow: 0 5px 10px #000;
+}
+
+header .logo {
+    font-size: 20px;
+    font-weight: 900;
+    color: #000;
+    transform: .5s;
+}
+header .logo:hover {
+    transform:scale(1.2);
+}
+header nav ul li {
+    position: relative;
+    float: left;
+}
+    header nav ul li a {
+        padding: 15px;
+        color:#000;
+        font-size: 16px;
+        display: block;
+    }
+
+    header nav ul li a:hover{
+        background: #000;
+        color: #fff;
+    }
+
+    nav ul li ul {
+        position: absolute;
+        left: 0;
+        width: 100px;
+        background: #fff;
+        display: none;
+
+    }
+    
+    nav ul li ul li {
+        width: 100%;
+        border: 1px solid rgba(0, 0, 0, 1);
+    }
+    
+    nav ul li ul li ul {
+        left: 100px;
+        top: 0;
+    }
+
+    nav ul li:hover > ul {
+        display: initial;
+
+    }
+
+    
